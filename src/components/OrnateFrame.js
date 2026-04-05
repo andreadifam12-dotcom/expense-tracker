@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export const OrnateFrame = ({ children }) => {
+    return (_jsxs("div", { className: "relative p-8", children: [_jsxs("svg", { className: "absolute inset-0 w-full h-full pointer-events-none", viewBox: "0 0 400 300", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: [_jsx("ellipse", { cx: "200", cy: "150", rx: "180", ry: "130", stroke: "#D4798A", strokeWidth: "2", opacity: "0.3" }), _jsx("ellipse", { cx: "200", cy: "150", rx: "190", ry: "140", stroke: "#7A9E7E", strokeWidth: "1.5", opacity: "0.2" }), _jsx("circle", { cx: "50", cy: "50", r: "4", fill: "#C9A84C", opacity: "0.5" }), _jsx("circle", { cx: "350", cy: "50", r: "4", fill: "#C9A84C", opacity: "0.5" }), _jsx("circle", { cx: "50", cy: "250", r: "4", fill: "#C9A84C", opacity: "0.5" }), _jsx("circle", { cx: "350", cy: "250", r: "4", fill: "#C9A84C", opacity: "0.5" })] }), _jsx("div", { className: "relative z-10", children: children })] }));
+};
+//# sourceMappingURL=OrnateFrame.js.map
